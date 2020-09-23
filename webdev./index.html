@@ -10,6 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
   </head>
+
   <body>
     <div class="main_background">
       <header class="header">
@@ -26,19 +27,21 @@
             fill="white"
           />
         </svg>
-        <nav class="header__navigation">
-          <ul class="navigation">
+        <nav class="header_navigation">
+          <ul class="navigation_left">
             <li><a href="#">About</a></li>
             <li><a href="#">Syllabus</a></li>
           </ul>
-          <ul class="navigation">
-            <li><a href="#">Projects</a></li>
+          <ul class="navigation_right">
             <li><a href="#">FAQ</a></li>
+            <li><a href="#">Projects</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <div class="h1"><h1>Your life is webdev</h1></div>
+        <div class="h1">
+          <h1>Your life is webdev</h1>
+        </div>
         <div class="motto">
           <p>
             Whatever the approach to development may be, the final program must
@@ -50,24 +53,24 @@
             <input class="start" type="button" value="get started" :hover: { />
           </p>
         </form>
+        </div>
       </main>
     </div>
     <section class="promo">
-      <div class="wrapper">
         <div class="promo__content">
-          <h3>Represent your idea with a smart Design</h3>
+          <div class="promo__content_idea"><h2>Rappresent your idea with a smart Design</h2></div>
+          <div class="promo__content_block"></br>
           <p>
             Tasks accompanying and related to programming include: testing,
-            debugging, source code maintenance, implementation of build systems,
+            debugging, source code maintenance, <strong>implementation of build systems,</strong>
             and management of derived artifacts, such as the machine code of
             computer programs.
-          </p>
+          </p></div>
+        </div>
           <div class="promo__button">
             <button class="start2">Get started</button>
           </div>
-          <img src="./assets/content-image-1.jpg" />
-        </div>
-      </div>
+          <div class="image1"><img src="./assets/content-image-1.jpg" /></div>
     </section>
     <section class="community">
       <div class="wrapper"></div>
@@ -77,7 +80,7 @@
         knowledge to overcome a problem, but it can also mean a security hacker
         in common language
       </p>
-      <p>< 1 / 5 ></p>
+      <p>< 1 / 5></p>
       <img src="./assets/Rectangle 2.jpg" />
       <img src="./assets/Rectangle 2 (1).jpg" />
     </section>
